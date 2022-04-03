@@ -1,9 +1,7 @@
 #include <iostream>
-#include <opencv2/highgui.hpp>
-#include <opencv2/imgproc.hpp>
-#include "videoEdgesDetect.hpp"
+#include "01Mat.hpp"
 int main() {
 
-    videoEdgesDetect();
+    matTest(0, nullptr);
     return 0;
 }
