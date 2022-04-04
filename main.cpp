@@ -1,7 +1,9 @@
 #include <iostream>
-#include "01Mat.hpp"
-int main() {
+#include "03Mask.hpp"
+int main(int argc, char* argv[]) {
+    MaskOperation(argc,argv);
 
-    matTest(0, nullptr);
+
+
     return 0;
 }
